@@ -7,7 +7,10 @@ For details about R-CNN please refer to the paper [Faster R-CNN: Towards Real-Ti
 ### Requirements: software
 
 1. Requirements for Tensorflow (see: [Tensorflow](https://www.tensorflow.org/))
-
+```Shell
+Tested with the combination: Ubuntu 16.04 LTS + Cuda 8.0 + CuDNN 5.1
+```
+ 
 2. Python packages you might not have: `cython`, `python-opencv`, `easydict`
 
 ### Requirements: hardware
