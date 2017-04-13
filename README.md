@@ -21,8 +21,11 @@ For details about R-CNN please refer to the paper [Faster R-CNN: Towards Real-Ti
   # Make sure to clone with --recursive
   git clone --recursive https://github.com/smallcorgi/Faster-RCNN_TF.git
   ```
-
-2. Build the Cython modules
+2. Add the yaml dependency
+  ```Shell
+  pip install pyyaml 
+  ```  
+3. Build the Cython modules
     ```Shell
     cd $FRCN_ROOT/lib
     make
